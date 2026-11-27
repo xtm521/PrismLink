@@ -3,7 +3,7 @@
   "build": 1,
   "minimumMacOS": "15.0",
   "downloadURL": "https://github.com/xtm521/PrismLink/releases/latest/download/PrismLinkHost-1.0.0-arm64.dmg",
-  "sha256": "cf52b511fce2d03bc67ba54f80e551da365dc306a7e6f269ed23b79228303a09",
+  "sha256": "fddc4910a264a2f70e787a5db734043ee6e47df7069aa20525009c9069547d09",
   "publishedAt": "2026-11-27T03:00:00Z",
   "releaseNotes": [
     "Initial 1.0.0 notarized Developer ID release for Apple Silicon Macs (macOS 15+).",
