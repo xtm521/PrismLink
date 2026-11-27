@@ -1,13 +1,13 @@
 {
-  "version": "1.0.0",
-  "build": 1,
+  "version": "1.0.1",
+  "build": 2,
   "minimumMacOS": "15.0",
-  "downloadURL": "https://github.com/xtm521/PrismLink/releases/latest/download/PrismLinkHost-1.0.0-arm64.dmg",
-  "sha256": "fddc4910a264a2f70e787a5db734043ee6e47df7069aa20525009c9069547d09",
-  "publishedAt": "2026-11-27T03:00:00Z",
+  "downloadURL": "https://github.com/xtm521/PrismLink/releases/latest/download/PrismLinkHost-1.0.1-arm64.dmg",
+  "sha256": "a6ce9382071fc190a9d3ae249f2671c3200c7b51b981f3c93b1f527de97ec9df",
+  "publishedAt": "2026-11-27T07:00:00Z",
   "releaseNotes": [
-    "Initial 1.0.0 notarized Developer ID release for Apple Silicon Macs (macOS 15+).",
-    "Native LAN QUIC + Post-Quantum X-Wing E2EE with 6-digit SAS and Keychain pinning.",
-    "Real-time Mac desktop & CLI workspace sync, Face ID command approvals, Git diff review, and localhost port tunneling."
+    "Added full 8-language localization (English, Simplified Chinese, Traditional Chinese, Japanese, Korean, French, German, Spanish).",
+    "Paired seamlessly with PrismLink 1.0 (Build 3) for iPhone & iPhone Duo (iOS 27.1 native split view and 5.4-inch cover screen).",
+    "Apple Developer ID signed, Hardened Runtime enabled, and notarized for Apple Silicon Macs (macOS 15+)."
   ]
 }
