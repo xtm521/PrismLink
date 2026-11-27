@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>PrismLink — Privacy Policy / 隐私政策</title>
+  <style>
+    :root {
+      color-scheme: light dark;
+      --bg: #ffffff;
+      --card: #f7f7f8;
+      --text: #111113;
+      --muted: #6e6e73;
+      --accent: #111113;
+      --border: #e5e5ea;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #0c0c0e;
+        --card: #141417;
+        --text: #f5f5f7;
+        --muted: #a1a1aa;
+        --accent: #f5f5f7;
+        --border: #27272a;
+      }
+    }
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "PingFang SC", sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.68;
+    }
+    .wrap { max-width: 760px; margin: 0 auto; padding: 48px 20px 80px; }
+    .card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 18px;
+      padding: 32px 28px;
+    }
+    .nav { display: flex; justify-content: space-between; align-items: center; margin-bottom: 24px; gap: 12px; flex-wrap: wrap; }
+    .brand { font-size: 18px; font-weight: 700; letter-spacing: -0.02em; text-decoration: none; color: var(--text); }
+    .links a { color: var(--muted); text-decoration: none; margin-left: 16px; font-size: 14px; font-weight: 500; }
+    h1 { font-size: 28px; margin: 0 0 8px; letter-spacing: -0.02em; }
+    h2 { font-size: 18px; margin: 28px 0 8px; }
+    p, li { color: var(--text); font-size: 15px; }
+    .muted { color: var(--muted); font-size: 13px; }
+    code { background: rgba(127,127,127,0.14); padding: 2px 6px; border-radius: 6px; font-size: 13px; }
+    hr { border: none; border-top: 1px solid var(--border); margin: 32px 0; }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="nav">
+      <a class="brand" href="./index.html">PrismLink</a>
+      <div class="links">
+        <a href="./index.html">Download</a>
+        <a href="./privacy.html">Privacy</a>
+        <a href="./support.html">Support</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <h1>Privacy Policy / 隐私政策</h1>
+      <p class="muted">Effective Date / 生效日期：2026-11-27</p>
+
+      <h2>1. Privacy Policy (English)</h2>
+      <p><strong>PrismLink operates zero third-party account servers, media relay servers, ad SDKs, analytics trackers, or AI proxy backends.</strong> Your display video, system audio, input events, clipboard, terminal sessions, local development tool commands, and file transfers travel directly peer-to-peer between your iPhone and your own Mac under <strong>Post-Quantum X-Wing (ML-KEM-768 + X25519) + ChaCha20-Poly1305 End-to-End Encryption</strong>.</p>
+      <ul>
+        <li><strong>Local Mac Tool Integration (No Cloud AI Proxy)</strong>: PrismLink does not bundle, host, or proxy any third-party cloud AI API. When you interact with local command-line or desktop coding tools installed on your own Mac, prompts and outputs remain strictly between your iPhone and your Mac.</li>
+        <li><strong>Sign in with Apple &amp; iCloud Private Database (CloudKit)</strong>: Used solely to discover Macs signed in to your own Apple Account, exchange short-lived signed P2P signaling candidates, and sync Apple-signed StoreKit 2 Pro entitlements across your own devices. All records reside exclusively inside your personal Apple iCloud Private Database; the developer has zero access.</li>
+        <li><strong>Local Keychain Hardware Pinning</strong>: Paired device public keys and 6-digit SAS verification fingerprints are stored locally in Apple Keychain (<code>kSecAttrAccessibleAfterFirstUnlockThisDeviceOnly</code>) and never leave your device.</li>
+        <li><strong>On-Device Permissions</strong>:
+          <ul>
+            <li><em>Camera (iOS)</em>: Used only to scan your Mac's signed pairing QR code.</li>
+            <li><em>Face ID / Touch ID (iOS)</em>: Used locally to authorize remote connections and high-risk command approvals; biometric data never leaves the device.</li>
+            <li><em>Microphone &amp; Speech Recognition (iOS)</em>: Used strictly for on-device Apple Speech Recognition dictation (<code>requiresOnDeviceRecognition</code>) when dictating text prompts; audio is never uploaded to PrismLink servers.</li>
+            <li><em>Local Network (iOS &amp; macOS)</em>: Used for Bonjour discovery and native QUIC peer-to-peer streaming on your local network.</li>
+            <li><em>Screen Recording &amp; Accessibility (macOS)</em>: Used exclusively on your Mac to stream your chosen display to your paired iPhone and inject remote keyboard/mouse input you initiate.</li>
+          </ul>
+        </li>
+        <li><strong>Account &amp; Data Deletion</strong>: Open <em>Settings → Delete Account &amp; Erase iCloud Data</em> inside PrismLink at any time to permanently erase all CloudKit Private Database records and revoke all local Keychain pins.</li>
+        <li><strong>Subscriptions &amp; Payments</strong>: All purchases are processed exclusively by Apple via StoreKit 2. PrismLink collects no payment information. Apple's Standard EULA applies: <a href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/">Apple Standard EULA</a>.</li>
+      </ul>
+
+      <hr />
+
+      <h2>二、隐私政策（简体中文）</h2>
+      <p><strong>PrismLink 不运营任何第三方账号服务器、视频中转服务器、广告统计 SDK 或云端 AI 代理后台。</strong> 您的屏幕画面、系统音频、键鼠输入、剪贴板、终端会话、本地开发工具指令与文件传输均在您的 iPhone 与自有 Mac 之间点对点（P2P）直接传输，并全程受 <strong>后量子 X-Wing（ML-KEM-768 + X25519）与 ChaCha20-Poly1305 端到端加密</strong>保护。</p>
+      <ul>
+        <li><strong>仅连接用户本机工具（零云端 AI 中转）</strong>：PrismLink 自身不调用也不转发任何第三方云端 AI 接口，仅在您的 iPhone 与您自有 Mac 上已安装的本地工具间安全传递指令与结果。</li>
+        <li><strong>Apple ID 登录与 iCloud 私有库（CloudKit Private Database）</strong>：仅用于发现您同一 Apple 账户下的 Mac 设备、交换短期签名网络候选地址以及跨设备同步 StoreKit 2 订阅凭证。所有数据仅保存在您个人的 Apple iCloud 私有空间中，开发者无法读取。</li>
+        <li><strong>本机权限用途</strong>：相机仅用于扫码配对；面容 ID 仅用于本机解锁与高危命令确认；麦克风与语音识别默认使用 Apple 设备端离线识别（语音不离开 iPhone）；本地网络用于局域网 QUIC 直连；macOS 录屏与辅助功能仅用于画面串流与响应您的远程操作。</li>
+        <li><strong>一键清除账户与数据</strong>：您可随时在 iPhone 端「设置 → 删除账户并清空 iCloud 数据」彻底删除全部 CloudKit 记录与本地钥匙串设备固定。</li>
+      </ul>
+
+      <h2>3. Contact / 联系方式</h2>
+      <p>GitHub Issues &amp; Support: <a href="./support.html">PrismLink Support Page</a> · Email: <a href="mailto:xtm1820490838@icloud.com">xtm1820490838@icloud.com</a></p>
+    </div>
+  </div>
+</body>
+</html>
